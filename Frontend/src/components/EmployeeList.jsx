@@ -27,7 +27,7 @@ function EmployeeList() {
       <h2>Employee List</h2>
       <ul>
         {employees.length === 0 ? (
-          <li>No employees to display</li>
+          <div><p>No employees to display</p></div>
         ) : (
           employees.map((employee) => (
             <li key={employee.employee_id}>
