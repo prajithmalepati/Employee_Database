@@ -8,17 +8,14 @@ const config = require ('./config');
 const app = express();
 const port = 5000;
 
-var user_name = config.user_name;
-var password = config.password;
-var database_name = config.database_name;
 app.use(cors());
 
 
 const db = mysql.createPool({
   host: 'localhost',
-  user: user_name,
-  password: password,
-  database: database_name,
+  user: config.user_name,
+  password: config.password,
+  database: config.database_name,
 });
 
 app.use(express.json());
