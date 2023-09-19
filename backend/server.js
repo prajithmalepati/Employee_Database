@@ -2,17 +2,23 @@ const express = require('express');
 const mysql = require('mysql2/promise');
 const cors = require('cors');
 const path = require('path');
+const config = require ('./config');
+
 
 const app = express();
 const port = 5000;
 
+var user_name = config.user_name;
+var password = config.password;
+var database_name = config.database_name;
 app.use(cors());
+
 
 const db = mysql.createPool({
   host: 'localhost',
-  user: 'username',
-  password: 'password',
-  database: 'DB',
+  user: user_name,
+  password: password,
+  database: database_name,
 });
 
 app.use(express.json());
