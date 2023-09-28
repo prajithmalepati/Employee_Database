@@ -58,8 +58,8 @@ This project is a simple employee database system built using React for the fron
 7. Return to the root directory and start both the backend and frontend:
 
    ```shell
-      cd ..
-      npm run dev
+   cd ..
+   npm run dev
 8. Access the application in your web browser at http://localhost:3000.
 
 ### Project Structure
