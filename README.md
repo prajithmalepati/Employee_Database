@@ -63,12 +63,14 @@ This project is a simple employee database system built using React for the fron
       npm run dev
 8. Access the application in your web browser at http://localhost:3000.
 
-Project Structure
+### Project Structure
 The project is structured into two main parts:
 
-backend: Contains the Express.js application, responsible for handling API requests and interacting with the MySQL database.
-frontend: Contains the React application, responsible for the user interface.
-API Endpoints
+## backend: 
+Contains the Express.js application, responsible for handling API requests and interacting with the MySQL database.
+## frontend: 
+Contains the React application, responsible for the user interface.
+## API Endpoints
 The backend provides the following API endpoints:
 
 POST /create: Create a new employee record.
@@ -79,13 +81,14 @@ DELETE /employees/:idOrName: Delete an employee by ID or name.
 Frontend
 The frontend is built using React and communicates with the backend through API requests. You can access the frontend at http://localhost:3000.
 
-Technologies Used
-Frontend:
+### Technologies Used
+## Frontend:
 
 React
 Fetch (for API requests)
 CSS for styling
-Backend:
+
+## Backend:
 
 Express.js
 MySQL for data storage
