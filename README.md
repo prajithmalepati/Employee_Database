@@ -32,41 +32,36 @@ This project is a simple employee database system built using React for the fron
 
    ```shell
    git clone https://github.com/your-username/employee-database.git
-Change to the project directory:
+2. Change to the project directory:
 
-shell
-Copy code
-cd employee-database
-Install the backend dependencies:
+   ```shell
+   cd employee-database
+3. Install the backend dependencies:
 
-shell
-Copy code
-npm install
-Navigate to the frontend directory and install the frontend dependencies:
+   ```shell
+   npm install
+4. Navigate to the frontend directory and install the frontend dependencies:
 
-shell
-Copy code
-cd frontend
-npm install
-Create a MySQL database and configure the database connection in the config.js file in the backend directory:
+   ```shell
+   cd frontend
+   npm install
+5. Create a MySQL database and configure the database connection in the config.js file in the backend directory:
 
 javascript
-Copy code
 // backend/config.js
 module.exports = {
   user_name: 'your_username',
   password: 'your_password',
   database_name: 'your_database_name',
 };
-Create the necessary database table using the provided SQL schema in database.sql.
+6. Create the necessary database table using the provided SQL schema in database.sql.
 
-Return to the root directory and start both the backend and frontend:
+7. Return to the root directory and start both the backend and frontend:
 
-shell
-Copy code
-cd ..
-npm run dev
-Access the application in your web browser at http://localhost:3000.
+   ```shell
+      cd ..
+      npm run dev
+8. Access the application in your web browser at http://localhost:3000.
 
 Project Structure
 The project is structured into two main parts:
@@ -88,7 +83,7 @@ Technologies Used
 Frontend:
 
 React
-Axios (for API requests)
+Fetch (for API requests)
 CSS for styling
 Backend:
 
