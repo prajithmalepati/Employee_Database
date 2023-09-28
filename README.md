@@ -9,7 +9,6 @@ This project is a simple employee database system built using React for the fron
 - [API Endpoints](#api-endpoints)
 - [Frontend](#frontend)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -96,5 +95,5 @@ Cors (for handling cross-origin requests)
 Contributing
 Contributions to this project are welcome. Feel free to open issues and pull requests to suggest improvements or report bugs.
 
-License
+# License
 This project is licensed under the MIT License.
