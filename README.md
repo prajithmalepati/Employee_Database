@@ -47,13 +47,13 @@ This project is a simple employee database system built using React for the fron
    npm install
 5. Create a MySQL database and configure the database connection in the config.js file in the backend directory:
 
-javascript
-// backend/config.js
-module.exports = {
-  user_name: 'your_username',
-  password: 'your_password',
-  database_name: 'your_database_name',
-};
+   ```javascript
+   // backend/config.js
+   module.exports = {
+   user_name: 'your_username',
+   password: 'your_password',
+   database_name: 'your_database_name',
+   };
 6. Create the necessary database table using the provided SQL schema in database.sql.
 
 7. Return to the root directory and start both the backend and frontend:
