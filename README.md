@@ -87,9 +87,9 @@ The frontend is built using React and communicates with the backend through API 
 ### Technologies Used
 
 ### Frontend:
-React
-Fetch (for API requests)
-CSS for styling
+React  
+Fetch (for API requests)  
+CSS for styling  
 
 ### Backend:
 Express.js  
