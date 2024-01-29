@@ -5,9 +5,12 @@ This project is a simple employee database system built using React for the fron
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
+ - [Prerequisites](#prerequisites)
+ - [Installation](#installation) 
 - [Project Structure](#project-structure)
+ - [Backend](#backend)
+ - [Frontend](#frontend)
 - [API Endpoints](#api-endpoints)
-- [Frontend](#frontend)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
