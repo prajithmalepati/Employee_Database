@@ -94,8 +94,8 @@ The frontend is built using React and communicates with the backend through API 
 **Backend:**
 - Express.js
 - MySQL for data storage
-- Cors (for handling cross-origin requests)
-Contributing
+- Cors (for handling cross-origin requests)  
+### Contributing
 Contributions to this project are welcome. Feel free to open issues and pull requests to suggest improvements or report bugs.
 
 # License
