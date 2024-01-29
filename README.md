@@ -86,15 +86,15 @@ The frontend is built using React and communicates with the backend through API 
 
 ### Technologies Used
 
-### Frontend:
-React  
-Fetch (for API requests)  
-CSS for styling  
+**Frontend:**
+- React
+- Fetch (for API requests)
+- CSS for styling
 
-### Backend:
-Express.js  
-MySQL for data storage  
-Cors (for handling cross-origin requests)  
+**Backend:**
+- Express.js
+- MySQL for data storage
+- Cors (for handling cross-origin requests)
 Contributing
 Contributions to this project are welcome. Feel free to open issues and pull requests to suggest improvements or report bugs.
 
