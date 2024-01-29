@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Employee_Database
+=======
+>>>>>>> 8717fe6ffae8d41cd06b7d927c4efc1b57a8cc4a
 # Employee Database Project
 
 This project is a simple employee database system built using React for the frontend and Express.js with MySQL for the backend. It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on employee records stored in a MySQL database. Below, you'll find instructions on setting up and running the project.
