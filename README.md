@@ -72,11 +72,11 @@ Contains the React application, responsible for the user interface.
 ### API Endpoints
 The backend provides the following API endpoints:
 
-POST /create: Create a new employee record.
-GET /employees: Retrieve a list of all employees.
-GET /employees/:idOrName: Retrieve employee details by ID or name.
-PUT /employees/:idOrName: Update an employee's name by ID or name.
-DELETE /employees/:idOrName: Delete an employee by ID or name.
+POST /create: Create a new employee record.  
+GET /employees: Retrieve a list of all employees.  
+GET /employees/:idOrName: Retrieve employee details by ID or name.  
+PUT /employees/:idOrName: Update an employee's name by ID or name.  
+DELETE /employees/:idOrName: Delete an employee by ID or name.  
 Frontend
 The frontend is built using React and communicates with the backend through API requests. You can access the frontend at http://localhost:3000.
 
