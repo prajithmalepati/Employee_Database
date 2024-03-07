@@ -98,5 +98,8 @@ The frontend is built using React and communicates with the backend through API 
 ### Contributing
 Contributions to this project are welcome. Feel free to open issues and pull requests to suggest improvements or report bugs.
 
+### Author
+- Prajith Malepati
+
 # License
 This project is licensed under the MIT License.
