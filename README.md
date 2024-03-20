@@ -102,4 +102,4 @@ Contributions to this project are welcome. Feel free to open issues and pull req
 - Prajith Malepati
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0.
